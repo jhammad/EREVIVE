@@ -5,7 +5,6 @@ error_reporting(E_ALL);
 include('includes/errors.php');
 include('includes/db_connx.php');
 session_start();
-echo $_SESSION["session1"];
 if(!isset($_SESSION["session1"]))
 {
   header('Location:index.php');
